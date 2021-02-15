@@ -1,5 +1,40 @@
-.chicken
+.thumbnail
 {
     width: 456px;
     height: 342px;
+}
+
+
+
+.recipe-image
+{
+    width: 912px;
+    height: 684px;
+}
+
+.container-fluid
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ingredients-panel
+{
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.page-header
+{
+    flex: auto;
+    flex-direction: row;
+}
+
+@media (max-width: 980px) 
+{
+    body
+    {
+        font-size: 18px;
+    }
 }
