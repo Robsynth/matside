@@ -15,59 +15,50 @@
     </head>
     
     <body>
-        <header id="top" class="page-header" role="banner">
-            <a class="hjem" href="index.html">
-            <h1>Robins matside</h1>
-            </a>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-menu" role="navigation">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Oppskrifter</a>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Kjøtt
-                              </a>
-                              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Lammekjøtt</a></li>
-                                <li><a class="dropdown-item" href="storfe.html">Storfe</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Svinekjøtt</a></li>
-                              <li><a class="dropdown-item" href="kylling.html">Kylling</a></li>
-                              </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Fisk
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Laks/ørret</a></li>
-                            <li><a class="dropdown-item" href="#">Hvit fisk</a></li>
-                          </ul>
-                            </li>  
-                            <li class="nav-item">
-                                <span class="menu-item-toggler"></span>
-                                <a class="nav-link" href="#">Bakst</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Søk</button>
-                      </form>
-                    </div>
-                </div>
-            </nav>
-        </header>
 
         <div class="container-fluid">
             <picture>
             <div>
-                <img src="Images/Kylling/cajun-chicken-alfredo.jpg" class="recipe-image">
+                <img src="Images/Kylling/cajun-chicken-alfredo.jpg" class="img-fluid">
             </div>
             </picture>
             <div>
-                <h1> Cajun Chicken Alfredo </h1>
+                <h1 class="recipe-name"> Cajun Chicken Alfredo </h1>
             </div>
+            
+            <div class="d-flex">
+            <div class="dropdown">
+              <button id="dLabel" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Ingredienser
+              </button>
+                    <ul class="dropdown-menu">
+                    <li class="dropdown-item"> <h2 class="ingredients-panel__heading t-upper t-weight-medium">Ingredienser</h2></li>
+                        <li class="dropdown-item"> <strong>4 porsjoner</strong> </li>
+                            <li> <strong> Cajunkrydder </strong> </li>
+                                <li class="dropdown-item"> 1 ts salt </li>
+                                <li class="dropdown-item"> 2 ts hvitløkspulver </li>
+                                <li class="dropdown-item"> 2 1/2 ts røkt paprika </li>
+                                <li class="dropdown-item"> 1 ts pepper </li>
+                                <li class="dropdown-item"> 1 ts løkpulver </li>
+                                <li class="dropdown-item"> 1 ts cayennepepper </li>
+                                <li class="dropdown-item"> 1 1/4 ts oregano </li>
+                                <li class="dropdown-item"> 1 1/4 ts timian </li>
+                                <li class="dropdown-item"> 1/2 ts chiliflak </li>
+                            
+                
+                           <li><strong>Cajun Chicken Alfredo</strong> </li> 
+                            
+                                <li class="dropdown-item"> 3 ss olivenolje </li>
+                                <li class="dropdown-item"> 3 fedd finhakket hvitløk </li>
+                                <li class="dropdown-item"> 140 g kjøttpølse i biter </li>
+                                <li class="dropdown-item"> 2 kyllingbryst i biter </li>
+                                <li class="dropdown-item"> 1 ss Cajunkrydder </li>
+                                <li class="dropdown-item"> 5 dl kremfløte </li>
+                                <li class="dropdown-item"> 400 g pasta penne </li>
+                                <li class="dropdown-item"> 125 g parmesan </li>
+                            </ul>
+                </div>
+                </div>
             
             <div class="row align-items-start">
             <div class="col">
@@ -102,7 +93,7 @@
                             </ul>
                         </div>
                 </div>
-            </div>
+                </div>
                 
                 <div class="col">
                 <div class="recipe-block">
@@ -138,7 +129,6 @@
                     </ol>
                 </div>
         </div>
-        </div>
-        </div>
+     </div>
     </body>
 </html>
