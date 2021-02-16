@@ -1,17 +1,3 @@
-.thumbnail
-{
-    width: 456px;
-    height: 342px;
-}
-
-
-
-.recipe-image
-{
-    width: 912px;
-    height: 684px;
-}
-
 .container-fluid
 {
     display: flex;
@@ -37,4 +23,35 @@
     {
         font-size: 18px;
     }
+}
+
+.recipe-name
+{
+    padding: 10px;
+}
+
+.container
+{
+    padding: 30px;
+}
+
+.img-fluid
+{
+    display: block;
+    max-width: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-thumbnail
+{
+    max-width: 35%;
+}
+
+.sticky
+{
+  position: relative;
+  left: 0;
 }
